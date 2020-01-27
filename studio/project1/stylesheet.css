@@ -1,0 +1,45 @@
+body{
+	width:100vw;
+	height:100vh;
+}
+
+h1{
+	position:absolute;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size:50px;
+	margin-top:15px;
+	margin-bottom:20px;
+	left:12px;
+	width:1000px;
+
+}
+
+.select{
+	position:absolute;
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	align-self: center;
+	top:100px;
+	font-size: 40px;
+	text-align:left;
+	margin:auto auto;
+}
+
+.cardbox{
+	background-color: black;
+	color:black;
+	width:300px;
+	height:200px;
+	border-radius:3%;
+	float:left;
+	font-family: courier;
+	border: solid 4px;
+	transition:.2s;
+	padding-left:10px;
+}
+
+.cardbox:hover {
+	background-color: white;
+
+}
