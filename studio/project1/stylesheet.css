@@ -23,7 +23,8 @@ h1{
 	top:100px;
 	font-size: 40px;
 	text-align:left;
-	margin:auto auto;
+	left:12px;
+	margin:auto;
 }
 
 .cardbox{
@@ -33,7 +34,7 @@ h1{
 	height:200px;
 	border-radius:3%;
 	float:left;
-	font-family: courier;
+	font-family: helvetica;
 	border: solid 4px;
 	transition:.2s;
 	padding-left:10px;
@@ -43,3 +44,201 @@ h1{
 	background-color: white;
 
 }
+
+.back{
+	position:absolute;
+	left:20px;
+	top:15px;
+	color:black;
+	font-family: helvetica;
+}
+
+.back a{
+	text-decoration: none;
+	transition: .3s;
+}
+
+.back a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+.back a:hover{
+	color:gray;
+}
+
+p{
+	font-family: helvetica;
+}
+
+/*card1*/
+
+.card1{
+	position:absolute;
+	top:150px;
+	left:30%;
+	margin:auto;
+	width:550px;
+	height:250px; 
+	border:solid black 3px;
+	border-radius:3%;
+	padding: 70px 0;
+	text-align: center;
+}
+
+.card1 p{
+	position:absolute;
+	left:65px;
+	width:200px;
+	letter-spacing:10px
+}
+
+/*card 2*/
+
+.card2{
+	position:absolute;
+	display:grid;
+	grid-template-columns:auto auto auto;
+	grid-gap: 50px;
+	top:150px;
+	left:20%;
+}
+
+.card2 p{
+	border: solid black 3px;
+	border-radius: 3%;
+	letter-spacing:0;
+}
+
+.card2-1 p{
+	width:20px;
+	height:auto;
+	padding: 20px;
+}
+
+.card2-2 p{
+	width:100px;
+	height:auto;
+	padding: 20px;
+}
+
+.card2-3 p{
+	width:500px;
+	height:auto;
+	padding: 20px;
+}
+
+/*card 3*/
+
+.card3 {
+	position:absolute;
+	top:150px;
+	left:30%;
+	margin:auto;
+	width:550px;
+	height:330px; 
+	border:solid black 3px;
+	border-radius:3%;
+	text-align: center;
+
+}
+
+.card3 p{
+	position:absolute;
+	top:70px;
+	left:190px;
+	transform:rotate(-90deg);
+	margin:0;
+	line-height: 40%;
+	font-size:40px; 
+	font-weight: bold;
+}
+
+.card3 pink1{color:rgb(254, 101, 208);}
+.card3 pink2{color:rgb(254, 99, 170);}
+.card3 pink3{color:rgb(254, 90, 150);}
+.card3 pink4{color:rgb(254, 80, 130);}
+.card3 pink5{color:rgb(254, 70, 110);}
+.card3 pink6{color:rgb(254, 60, 100);}
+
+/*card 4*/
+.card4{
+	font-family: helvetica;
+	font-size:24px;
+}
+
+.card4box1{
+	position:absolute;
+	width:300px;
+	height:200px;
+	background-color: white;
+	border:solid black 3px;
+	border-radius: 5%;
+	top:400px;
+	left:70px;
+}
+
+.card4box2{
+	position:absolute;
+	width:300px;
+	height:200px;
+	background-color: white;
+	border:solid black 3px;
+	border-radius: 5%;
+	top:400px;
+	left:950px;
+}
+
+.card4-1{
+	left:100px;
+	animation: comedown 0.5s 0s ease-in forwards;
+	animation-iteration-count: 1;
+}
+
+.card4-2{
+	left:200px;
+	animation: comedown 0.5s 1s ease-in forwards;
+	animation-iteration-count: 1;
+}
+
+.card4-3{
+	left:300px;
+	animation: comedown 0.5s 2s ease-in forwards;
+	animation-iteration-count: 1;
+}
+
+.card4-4{
+	left:400px;
+	animation: comedown 0.5s 3s ease-in forwards;
+	animation-iteration-count: 1;
+}
+.card4-5{
+	left:500px;
+	animation: comedown 0.5s 4s ease-in forwards;
+	animation-iteration-count: 1;
+}
+.card4-6{
+	left:700px;
+	animation: comedown 0.5s 5s ease-in forwards;
+	animation-iteration-count: 1;
+}
+.card4-7{
+	left:900px;
+	animation: comedown 0.5s 6s ease-in forwards;
+	animation-iteration-count: 1;
+}
+
+@keyframes comedown{
+	0%{
+		position:absolute;
+		top:-30px;
+	}
+	100%{
+		position:absolute;
+		top:378px;
+	}
+}
+
+
+
+
