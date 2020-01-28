@@ -169,25 +169,15 @@ p{
 
 .card4box1{
 	position:absolute;
-	width:300px;
-	height:200px;
+	width:600px;
+	height:400px;
 	background-color: white;
 	border:solid black 3px;
 	border-radius: 5%;
-	top:400px;
+	top:250px;
 	left:70px;
 }
 
-.card4box2{
-	position:absolute;
-	width:300px;
-	height:200px;
-	background-color: white;
-	border:solid black 3px;
-	border-radius: 5%;
-	top:400px;
-	left:950px;
-}
 
 .card4-1{
 	left:100px;
