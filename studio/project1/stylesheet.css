@@ -745,7 +745,7 @@ p{
 #card9_1{
 	left:35vw;
 	bottom:0;
-	animation: cardnineright 1s 1s infinite ease-in;
+	animation: cardnineright 1s 2s infinite ease-in;
 }
 
 #card9_2{
@@ -792,11 +792,11 @@ p{
 		left:35vw;
 	}
 
-	20%{
+	15%{
 		left:35vw;
 	}
 
-	90%{
+	70%{
 		left:100vw;
 	}
 
@@ -812,11 +812,15 @@ p{
 		bottom:7rem;
 	}
 
-	100%{
-		bottom:0rem;
+	15%{
+		bottom:7rem;
 	}
 
 	70%{
+		bottom:0rem;
+	}
+
+	100%{
 		bottom:0rem;
 	}
 }
@@ -824,6 +828,10 @@ p{
 @keyframes cardninedowntwo{
 
 	0%{
+		bottom:14rem;
+	}
+
+	15%{
 		bottom:14rem;
 	}
 
@@ -842,6 +850,10 @@ p{
 		bottom:21rem;
 	}
 
+	15%{
+		bottom:21rem;
+	}
+
 	70%{
 		bottom:14rem;
 	}
@@ -854,6 +866,10 @@ p{
 @keyframes cardninedownfour{
 
 	0%{
+		bottom:28rem;
+	}
+
+	15%{
 		bottom:28rem;
 	}
 
@@ -872,6 +888,10 @@ p{
 		bottom:35rem;
 	}
 
+	15%{
+		bottom:35rem;
+	}
+
 	70%{
 		bottom:28rem;
 	}
@@ -884,6 +904,10 @@ p{
 @keyframes cardninedownsix{
 
 	0%{
+		bottom:42rem;
+	}
+
+	15%{
 		bottom:42rem;
 	}
 
