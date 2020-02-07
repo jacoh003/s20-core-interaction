@@ -1,0 +1,119 @@
+body{
+	max-width: 100vw;
+	overflow: hidden;
+}
+
+
+.truckface{
+	position: absolute;
+	background-color: black;
+	color:limegreen;
+	border:solid .5rem limegreen ;
+	border-right:none;
+	top:10rem;
+	right:0;
+	width:70vw;
+	height:40vh;
+
+
+}
+
+.type{
+	position: relative;
+	display:inline-block;
+	vertical-align: middle;
+	width:50%;
+	height:30vh;
+	line-height: 1rem;
+
+}
+
+.type1{
+	font-size: 3vw;
+	position: absolute;
+	top:5rem;
+	left:5rem;
+	font-family: futura;
+	font-weight: thin;
+	font-style: italic;
+	line-height:1.5rem;
+}
+
+.type2{
+	position: absolute;
+	font-size: 4rem;
+	position: absolute;
+	top:4rem;
+	font-family:futura;
+	left:30rem;
+	text-align: left;
+	line-height: 2rem;
+	font-weight:normal;
+	letter-spacing: 0.3rem;
+
+}
+
+.numbers{
+	position:absolute;
+	bottom:-4rem;
+	font-family: arial;
+	font-size:3rem;
+	text-align: center;
+	transform: skewX(0.1deg);
+	left:30rem;
+	color:lightgray;
+}
+
+.v{
+	position: absolute;
+	left:20rem;
+	top:-2rem;
+	font-family: avenir;
+	font-weight: lighter;
+	font-style: italic;
+	font-size: 13rem;
+	transform:rotate(15deg);
+}
+
+.c{
+	position: absolute;
+	left:23rem;
+	top:4rem;
+	font-family: avenir;
+	font-weight: lighter;
+	font-size: 12rem;
+	transform:rotate(-15deg);
+}
+
+#corp{
+	text-align: right;
+}
+
+.wheels{
+	position:absolute;
+	width:1rem;
+	height:1rem;
+	background-color: limegreen;
+	border: solid black 4rem;
+	top:29rem;
+	border-radius:100%;
+
+}
+
+#w1 {
+	left:40rem;
+}
+
+#w2{
+	left:75rem;
+}
+
+img{
+	position:absolute;
+	width:25rem;
+	left:0rem;
+	z-index: -1000;
+	top:10rem;
+}
+
+

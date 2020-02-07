@@ -79,7 +79,7 @@ h1{
 
 .refresh{
 	position:absolute;
-	right:20px;
+	left:100px;
 	top:10px;
 	color:black;
 	font-family: helvetica;
@@ -723,8 +723,6 @@ p{
 	max-width:100vw;
 	max-height:100%;
 	overflow: hidden;
-
-
 }
 
 .card9{
@@ -920,7 +918,97 @@ p{
 	}
 }
 
+/*card10*/
 
+.card10container{
+	max-width:100vw;
+	max-height:100%;
+	overflow: hidden;
+}
 
+.card10{
+	position:absolute;
+	width:12rem;
+	height:7rem;
+	border:solid black 3px;
+	border-radius:3%;
+	display:inline-block;
+	text-align: center;
+	font-family: helvetica;
+	font-size:.7rem;
+	padding-top: 3rem;
+	box-sizing:border-box;
+	background-color: white;
+	left:3rem;
+	top:0rem;
+	animation: tenbounce 5s 1s infinite ease-in-out;
+}
+
+@keyframes tenbounce{
+
+	0%{
+		top:0rem;
+		left:3rem;
+	}
+
+	5%{
+		top:0rem;
+		left:3rem;
+	}
+
+	10%{
+		top:20rem;
+		left:5rem;
+
+	}
+	15%{
+
+		top:20rem;
+		left:5rem;
+
+	}
+
+	30%{
+		top:6rem;
+		left:6rem;
+	}
+
+	32%{
+
+		top:6rem;
+		left:6rem;
+	}
+
+	43%{
+
+		top:20rem;
+		left:9rem;
+	}
+	45%{
+		top:20rem;
+		left:9rem;
+	}
+	
+	60%{
+
+		top:12rem;
+		left:13rem;
+	}
+	62%{
+
+		top:12rem;
+		left:13rem;
+	}
+
+	80%{
+		top:20rem;
+		left:16rem;
+	}
+	100%{
+
+		top:20rem;
+		left: 16rem;
+	}
+}
 
 
