@@ -30,7 +30,7 @@ h1{
 	font-family: helvetica;
 	font-weight: bold;
 	font-size:1.5rem;
-	top:2rem;
+	top:1.5rem;
 }
 
 .select{
@@ -170,7 +170,7 @@ p{
 
 .card2-3 p{
 	width:500px;
-	height:auto;
+	height:300px;
 	padding: 20px;
 }
 
@@ -941,7 +941,7 @@ p{
 	background-color: white;
 	left:3rem;
 	top:-10rem;
-	animation: tenbounce 3s infinite ease-in-out;
+	animation: tenbounce 3s infinite;
 	animation-delay: 1s;
 }
 
@@ -957,75 +957,83 @@ p{
 @keyframes tenbounce{
 
 	0%{
-		top:-10rem;
+		top:2rem;
 		left:3rem;
 		border-radius:3%;
+		opacity: 0;
 	}
 
 
 	15%{
-		top:-10rem;
+		top:2rem;
 		left:3rem;
 		border-radius:3%;
+		opacity: 1;
+		animation-timing-function: ease;
 	}
 
-	19.9%{
+	22.5%{
 		border-radius: 3%;
 	}
 
-	20%{
+	23%{
 		top:20rem;
-		left:10rem;
+		left:12rem;
 		border-radius:20%;
 		animation-timing-function: ease;
 	}
 
-	40%{
+/*	40%{
 		top:6rem;
-		left:17rem;
+		left:14rem;
 		border-radius:20%;
-	}
+	}*/
 
 	42%{
 
-		top:6rem;
-		left:17rem;
+		top: 8rem;
+		left:15rem;
 		border-radius:20%;
 		animation-timing-function: ease;
 	}
 
+	45%{
+		border-radius: 20%;
+	}
 	46.9%{
-		border-radius:20%
+		border-radius:40%
 	}
 
 	47%{
 		top:20rem;
-		left:20rem;
+		left:18rem;
 		border-radius:40%;
 		animation-timing-function: ease;
 	}
 
 	
+	/*63%{
+
+		top:12rem;
+		left:27rem;
+		border-radius:40%;
+		animation-timing-function: ease;
+	}*/
 	63%{
-
-		top:12rem;
-		left:27rem;
-		border-radius:40%;
-		animation-timing-function: ease;
-	}
-	65%{
-
-		top:12rem;
-		left:27rem;
+		top: 12rem;
+		left:21rem;
 		border-radius:40%;
 		animation-timing-function: ease;
 	}
 
-	70%{border-radius: 40%}
+	68%{border-radius: 40%}
 
-	70.5%{
+
+	69%{border-radius: 100%}
+
+	70%{
 		top:20rem;
-		left:30rem;
+		left:25rem;
 		border-radius:100%;
 		transform: rotate(0deg);
 		animation-timing-function: ease;
@@ -1033,7 +1041,7 @@ p{
 
 	77%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(3deg);
 		animation-timing-function: ease;
@@ -1041,7 +1049,7 @@ p{
 
 	85%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(-3deg);
 		animation-timing-function: ease;
@@ -1049,7 +1057,7 @@ p{
 
 	90%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(2deg);
 		animation-timing-function: ease;
@@ -1057,7 +1065,7 @@ p{
 
 	93%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(-2deg);
 		animation-timing-function: ease;
@@ -1065,7 +1073,7 @@ p{
 
 	95%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(1deg);
 		animation-timing-function: ease;
@@ -1073,7 +1081,7 @@ p{
 
 	97%{
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		transform: rotate(-1deg);
 		opacity: 1;
@@ -1084,10 +1092,122 @@ p{
 	100%{
 
 		top:20rem;
-		left: 30rem;
+		left: 25rem;
 		border-radius:100%;
 		opacity: 0;
 		animation-timing-function: ease;
+	}
+}
+
+/*card 11*/
+
+.card11container{
+	max-width:100vw;
+	height:100vh;
+	box-sizing: border-box;
+	overflow: hidden;
+	padding:0;
+	margin:0;
+}
+
+.card11{
+	padding:0;
+	margin:0;
+	position: absolute;
+	border:solid black 3px;
+	border-radius:3%;
+	background-color: white;
+	display:inline-block;
+	text-align: center;
+	padding-top: 3rem;
+	box-sizing: border-box;
+	font-size:.6rem;
+	height:10rem;
+	width:7rem;
+	font-family: helvetica;
+	color:black;
+	top:10rem;
+	
+}
+
+
+#card111{
+	left:46rem;
+	animation: domino 4.5s 1.8s infinite;
+}
+
+#card112{
+	left:38.5rem;
+	animation: domino 4.5s 1.7s infinite;
+}
+
+#card113{
+	left:31rem;
+	animation: domino 4.5s 1.6s infinite;
+}
+
+#card114{
+	left:23.5rem;
+	animation: domino 4.5s 1.5s infinite;
+}
+
+#card115{
+	left:16rem;
+	animation: domino 4.5s 1.4s infinite;
+}
+
+#card116{
+	left:8.5rem;
+	animation: domino 4.5s 1.3s infinite;
+}
+
+#card117{
+	left:1rem;
+	animation: domino 4.5s 1.2s infinite;
+}
+
+#card118{
+	left:-6.5rem;
+	animation: domino 4.5s 1s infinite;
+}
+
+@keyframes domino{
+
+	0%{
+		opacity: 1;
+	}
+
+	20%{
+		opacity:1;
+	}
+
+	60%{
+		transform: rotate(0deg);
+		animation-timing-function: ease;
+		top:10rem;
+	}
+
+	70%{
+		transform: rotate(90deg);
+		animation-timing-function: ease;
+		top:12rem;
+	}
+
+	90%{
+		opacity: 1;
+		top:12rem;
+	}
+
+	97%{
+		opacity: 0;
+		transform: rotate(90deg);
+		top:12rem;
+	}
+
+	100%{
+		opacity: 0;
+		transform: rotate(90deg);
+		top:12rem;
 	}
 }
 
