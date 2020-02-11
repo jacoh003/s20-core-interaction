@@ -940,74 +940,154 @@ p{
 	box-sizing:border-box;
 	background-color: white;
 	left:3rem;
-	top:0rem;
-	animation: tenbounce 5s 1s infinite ease-in-out;
+	top:-10rem;
+	animation: tenbounce 3s infinite ease-in-out;
+	animation-delay: 1s;
+}
+
+.ground10{
+	position: absolute;
+	top:26.9rem;
+	left:0;
+	background-color: black;
+	height:0.5rem;
+	width:100vw;
 }
 
 @keyframes tenbounce{
 
 	0%{
-		top:0rem;
+		top:-10rem;
 		left:3rem;
+		border-radius:3%;
 	}
 
-	5%{
-		top:0rem;
-		left:3rem;
-	}
 
-	10%{
-		top:20rem;
-		left:5rem;
-
-	}
 	15%{
-
-		top:20rem;
-		left:5rem;
-
+		top:-10rem;
+		left:3rem;
+		border-radius:3%;
 	}
 
-	30%{
+	19.9%{
+		border-radius: 3%;
+	}
+
+	20%{
+		top:20rem;
+		left:10rem;
+		border-radius:20%;
+		animation-timing-function: ease;
+	}
+
+	40%{
 		top:6rem;
-		left:6rem;
+		left:17rem;
+		border-radius:20%;
 	}
 
-	32%{
+	42%{
 
 		top:6rem;
-		left:6rem;
+		left:17rem;
+		border-radius:20%;
+		animation-timing-function: ease;
 	}
 
-	43%{
+	46.9%{
+		border-radius:20%
+	}
 
+	47%{
 		top:20rem;
-		left:9rem;
+		left:20rem;
+		border-radius:40%;
+		animation-timing-function: ease;
 	}
-	45%{
-		top:20rem;
-		left:9rem;
-	}
+
 	
-	60%{
+	63%{
 
 		top:12rem;
-		left:13rem;
+		left:27rem;
+		border-radius:40%;
+		animation-timing-function: ease;
 	}
-	62%{
+	65%{
 
 		top:12rem;
-		left:13rem;
+		left:27rem;
+		border-radius:40%;
+		animation-timing-function: ease;
 	}
 
-	80%{
+	70%{border-radius: 40%}
+
+	70.5%{
 		top:20rem;
-		left:16rem;
+		left:30rem;
+		border-radius:100%;
+		transform: rotate(0deg);
+		animation-timing-function: ease;
 	}
+
+	77%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(3deg);
+		animation-timing-function: ease;
+	}
+
+	85%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(-3deg);
+		animation-timing-function: ease;
+	}
+
+	90%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(2deg);
+		animation-timing-function: ease;
+	}
+
+	93%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(-2deg);
+		animation-timing-function: ease;
+	}
+
+	95%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(1deg);
+		animation-timing-function: ease;
+	}
+
+	97%{
+		top:20rem;
+		left: 30rem;
+		border-radius:100%;
+		transform: rotate(-1deg);
+		opacity: 1;
+		animation-timing-function: ease;
+	}
+
+
 	100%{
 
 		top:20rem;
-		left: 16rem;
+		left: 30rem;
+		border-radius:100%;
+		opacity: 0;
+		animation-timing-function: ease;
 	}
 }
 
