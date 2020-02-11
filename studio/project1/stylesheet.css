@@ -10,6 +10,7 @@ body{
 	padding:8%10%;
 	height:auto;
 	margin:0;
+	overflow: hidden;
 
 }
 
@@ -75,6 +76,7 @@ h1{
 	top:15px;
 	color:black;
 	font-family: helvetica;
+	z-index: 1000;
 }
 
 .refresh{
@@ -697,16 +699,13 @@ p{
 
 /*card 8*/
 
-.card8contain{
+.card8{
 	position: absolute;
 	top:7rem;
 	left:30vw;
-	display:inline-block;
 	margin:0;
 	border:solid black 3px;
 	border-radius:3%;
-	background-color: white;
-	display:inline-block;
 	text-align: center;
 	padding-top: 6rem;
 	box-sizing: border-box;
@@ -716,6 +715,31 @@ p{
 	font-family: helvetica;
 	color:black;
 }
+
+#card8-2{
+	left: 30.1vw;
+	border:none;
+	top:7.15rem;
+}
+
+#card8-3{
+	left: 29.9vw;
+	border:none;
+	top:7.15rem;
+}
+
+#card8-4{
+	left: 30.3vw;
+	border:none;
+	top:7.15rem;
+}
+
+#card8-5{
+	left: 29.8vw;
+	border:none;
+	top:7.15rem;
+}
+
 
 /*card 9*/
 
@@ -1210,5 +1234,82 @@ p{
 		top:12rem;
 	}
 }
+
+/*card12*/
+
+.card12contain{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	position: absolute;
+	left:-10rem;
+	top:-6rem;
+
+}
+
+.card12{
+	padding:0;
+	margin:0;
+	border:solid black 3px;
+	border-radius:3%;
+	display:inline-block;
+	text-align: center;
+	padding-top: 2.5rem;
+	box-sizing: border-box;
+	font-size:0.7rem;
+	height:6rem;
+	width:10rem;
+	font-family: helvetica;
+	color:black;
+	top:10vh;
+}
+
+
+
+
+.card12:not(#chosen){
+	opacity: 0;
+}
+
+#chosen{
+	animation: pulse 2s infinite ease;
+	text-decoration: none;
+}
+
+@keyframes pulse{
+	0%{
+		opacity: .3;
+	}
+	50%{
+		opacity:1;
+	}
+	100%{
+		opacity: .3;
+	}
+}
+
+.card122{
+	padding:0;
+	margin:0;
+	border:solid black 3px;
+	border-radius:3%;
+	display:inline-block;
+	text-align: center;
+	padding-top: 2.5rem;
+	box-sizing: border-box;
+	font-size:0.7rem;
+	height:6rem;
+	width:10rem;
+	font-family: helvetica;
+	color:black;
+	top:10vh;
+}
+
+
+
+
+.card12:not(#chosen){
+	opacity: 0;
+}
+
 
 
