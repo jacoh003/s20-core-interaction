@@ -1,0 +1,212 @@
+
+body {
+  padding:0;
+  margin:0;
+  line-height: 1.4;
+  font-family: avenir;
+}
+
+.menucontain{
+	position: fixed;
+	display: flex;
+	align-content: space-between;
+	flex-basis: auto;
+	flex-wrap: nowrap;
+	transform: rotate(-90deg);
+	top:300px;
+	left:-20;
+}
+
+.menuitem{
+	margin-right: 20px;
+	margin-top: 0;
+	padding:0;
+}
+.menuitem:hover{
+	color:lightgray;
+	transition: .5s;
+}
+
+.articles{
+	display: inline-block;
+	padding: 27% 15%;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 20px;
+	
+}
+
+.text{
+
+	column-count: 2;
+	column-gap: 2rem;
+}
+
+h3{
+	padding-top: 5rem;
+	font-size:50px;
+	text-align:center;
+}
+
+h2{
+	font-size:25px;
+}
+
+h1{
+	font-size: 100px;
+	text-align: center;
+	padding:0;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+@media screen and (max-width: 1338px){
+
+
+h1{
+	color: pink;
+	font-size: 100px;
+	text-align: center;
+	padding:0;
+	margin-bottom: 1px;
+}
+
+
+.articles{
+	display: inline-block;
+	padding: 10% 10%;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 18px;
+	color: red;	
+}
+
+.text{
+
+	column-count: 1;
+	column-gap: 2rem;
+	color:red;
+}
+
+.menuitem{
+	margin-right: 20px;
+	margin-top: 0;
+	padding:0;
+}
+.menucontain{
+	position: fixed;
+	display: flex;
+	align-content: space-between;
+	flex-basis: auto;
+	flex-wrap: nowrap;
+	transform:rotate(0deg);
+	top:0px;
+	left:0;
+}
+
+
+}
+
+
+@media screen and (max-width: 1000px){
+
+
+h1{
+	color: purple;
+	font-size: 70px;
+	text-align: center;
+	padding:0;
+	margin-bottom: -10px;
+}
+
+
+h3{
+	padding-top: 5rem;
+	font-size:25px;
+	text-align:center;
+}
+
+h2{
+	font-size:20px;
+}
+
+.articles{
+	display: inline-block;
+	padding: 5% 5%;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 12px;
+	color: purple;	
+}
+
+.menuitem{
+	margin-right: 20px;
+	margin-top: 0;
+	padding:0;
+}
+.menucontain{
+	position: fixed;
+	display: flex;
+	align-content: space-between;
+	flex-basis: auto;
+	flex-wrap: nowrap;
+	transform:rotate(0deg);
+	top:0px;
+	left:20px;
+}
+}
+
+@media screen and (max-width: 730px){
+
+h1{
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+	padding:0;
+	margin-bottom: 0px;
+}
+
+
+h3{
+	padding-top: 2rem;
+	font-size:20px;
+	text-align:center;
+}
+
+h2{
+	font-size:15px;
+}
+
+.articles{
+	display: inline-block;
+	padding: 2% 2%;
+	margin-top: 0;
+	padding-top: 0;
+	font-size: 11px;
+	color: blue;	
+}
+
+.menuitem{
+	margin-right: 20px;
+	margin-top: 0;
+	padding:0;
+}
+.menucontain{
+	position: fixed;
+	display: flex;
+	align-content: space-between;
+	flex-basis: auto;
+	flex-wrap: nowrap;
+	transform:rotate(0deg);
+	top:0px;
+	left:55px;
+}
+
+.text{
+	color: blue;
+}
+
+}
