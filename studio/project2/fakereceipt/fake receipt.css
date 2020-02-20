@@ -1,0 +1,7 @@
+
+@font-face {
+    font-family:"FakeReceipt-Regular";
+    src:url("fake receipt.woff2") format("woff2"),url("fake receipt.woff") format("woff"),url("fake receipt.otf") format("opentype");
+    font-style:normal;font-weight:400;
+}
+        

@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family:"recpt";
+    src:url("fakereceipt/fakereceipt.woff2") format("woff2"),url("fakereceipt/fakereceipt.woff") format("woff"),url("fakereceipt.otf") format("opentype");
+ }
+
+ body{
+ 	padding:0;
+ 	margin:0;
+ 	max-width:100vw;
+ }
+
+html{
+	font-size: 0.5vw;
+}
+
+.container{
+	width:100%;
+}
+
+.shops{
+	font-family: recpt; 
+	font-size:2rem;
+	text-align:center;
+	line-height: 16rem;
+	animation: pulse 2s infinite;
+	position:absolute;
+	width: 180rem;
+	left:10rem;
+	word-spacing: 10rem;
+
+}
+
+#hr24{
+	animation-delay: 0.5s;
+
+}
+
+#am7pm7{
+	animation-delay: 0.7s;
+	top:2rem;
+}
+
+#am6pm5{
+	animation-delay: 0.2s;
+	top:4rem;
+}
+
+#am7pm8{
+	animation-delay: 0.1s;
+	top:6rem;
+}
+
+#am8pm11{
+	animation-delay: 0.05s;
+	top:8rem;
+}
+
+#pm12pm11{
+	animation-delay: 0.8s;
+	top:10rem;
+}
+
+#pm10am5{
+	animation-delay: 0.9s;
+	top:12rem;
+}
+
+
+
+
+
+@keyframes pulse{
+
+	0%{
+		opacity: 0;
+		animation-timing-function: ease-in-out;
+	}
+	50%{
+		opacity: 1;
+		animation-timing-function: ease-in-out;
+	}
+
+	100%{
+		opacity: 0;
+		animation-timing-function: ease-in-out;
+	}
+}
