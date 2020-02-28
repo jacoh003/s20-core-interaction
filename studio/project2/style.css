@@ -39,6 +39,7 @@ html{
 #am7pm7{
 	animation-delay: 0.7s;
 	top:2rem;
+
 }
 
 #am6pm5{
@@ -67,13 +68,34 @@ html{
 }
 
 
-
+@keyframes appear{
+	0%{
+		opacity: 0.5;	
+		animation-timing-function: ease;	
+	}
+	5%{
+		opacity: 1;	
+		animation-timing-function: ease;	
+	}
+	50%{
+		opacity: 1;	
+		animation-timing-function: ease;	
+	}
+	98%{
+		opacity: 1;	
+		animation-timing-function: ease;	
+	}
+	100%{
+		opacity: 0.5;	
+		animation-timing-function: ease;	
+	}
+}
 
 
 @keyframes pulse{
 
 	0%{
-		opacity: 0;
+		opacity: 0.5;
 		animation-timing-function: ease-in-out;
 	}
 	50%{
@@ -82,7 +104,7 @@ html{
 	}
 
 	100%{
-		opacity: 0;
+		opacity: 0.5;
 		animation-timing-function: ease-in-out;
 	}
 }
