@@ -22,7 +22,7 @@ html{
 	font-family: recpt; 
 	font-size:2rem;
 	text-align:center;
-	line-height: 16rem;
+	line-height: 18rem;
 	animation: pulse 2s infinite;
 	position:absolute;
 	width: 180rem;
@@ -67,6 +67,10 @@ html{
 	top:12rem;
 }
 
+#pm12am4{
+	animation-delay: 0.9s;
+	top:32rem;
+}
 
 @keyframes appear{
 	0%{
@@ -107,4 +111,58 @@ html{
 		opacity: 0.5;
 		animation-timing-function: ease-in-out;
 	}
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  
+.shops{
+	font-family: recpt; 
+	font-size:4rem;
+	text-align:center;
+	line-height: 30rem;
+	animation: pulse 2s infinite;
+	position:absolute;
+	width: 180rem;
+	left:10rem;
+	word-spacing: 10rem;
+}
+
+
+#am7pm7{
+	animation-delay: 0.7s;
+	top:4rem;
+
+}
+
+#am6pm5{
+	animation-delay: 0.2s;
+	top:8rem;
+}
+
+#am7pm8{
+	animation-delay: 0.1s;
+	top:12rem;
+}
+
+#am8pm11{
+	animation-delay: 0.05s;
+	top:16rem;
+}
+
+#pm12pm11{
+	animation-delay: 0.8s;
+	top:20rem;
+}
+
+#pm10am5{
+	animation-delay: 0.9s;
+	top:24rem;
+}
+
+#pm12am4{
+	animation-delay: 0.9s;
+	top:56rem;
 }
