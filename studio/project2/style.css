@@ -114,7 +114,57 @@ html{
 }
 
 
+@media screen and (max-width: 1000px) {
+	.shops{
+	font-family: recpt; 
+	font-size:2rem;
+	text-align:center;
+	line-height: 30rem;
+	animation: pulse 2s infinite;
+	position:absolute;
+	width: 180rem;
+	left:10rem;
+	word-spacing: 10rem;
+	padding-top: -6rem;
+}
 
+
+#am7pm7{
+	animation-delay: 0.7s;
+	top:4rem;
+
+}
+
+#am6pm5{
+	animation-delay: 0.2s;
+	top:8rem;
+}
+
+#am7pm8{
+	animation-delay: 0.1s;
+	top:12rem;
+}
+
+#am8pm11{
+	animation-delay: 0.05s;
+	top:16rem;
+}
+
+#pm12pm11{
+	animation-delay: 0.8s;
+	top:20rem;
+}
+
+#pm10am5{
+	animation-delay: 0.9s;
+	top:24rem;
+}
+
+#pm12am4{
+	animation-delay: 0.9s;
+	top:56rem;
+}
+}
 
 @media screen and (max-width: 500px) {
   
@@ -165,4 +215,5 @@ html{
 #pm12am4{
 	animation-delay: 0.9s;
 	top:56rem;
+}
 }
