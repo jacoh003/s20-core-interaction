@@ -8,6 +8,7 @@
  	padding:0;
  	margin:0;
  	max-width:100vw;
+ 	font-family: recpt; 
  }
 
 html{
@@ -15,61 +16,88 @@ html{
 }
 
 .container{
-	width:100%;
+	width:500px;
+	padding-top:30px;
+	position: absolute;
+	left:30%;
+	top: 0px;
+
+
+}
+
+
+.timeTitle{
+	font-family: recpt; 
+	font-size:20px;
+	text-align: center;
+	line-height: 17px;
+}
+
+#timedate{
+	font-size: 10px;
+}
+
+.shopnames{
+	position: relative;
 }
 
 .shops{
 	font-family: recpt; 
-	font-size:2rem;
-	text-align:center;
-	line-height: 18rem;
+	font-size:10px;
+	text-align:justify;
+	line-height: 70px;
 	animation: pulse 2s infinite;
 	position:absolute;
-	width: 180rem;
-	left:10rem;
-	word-spacing: 10rem;
-
+	width: 400px;
+	left:10%;
+	word-spacing: 12px;
 }
 
 #hr24{
 	animation-delay: 0.5s;
+	top:0px;
 
 }
 
 #am7pm7{
 	animation-delay: 0.7s;
-	top:2rem;
+	top:10px;
 
 }
 
 #am6pm5{
 	animation-delay: 0.2s;
-	top:4rem;
+	top:20px;
 }
 
 #am7pm8{
 	animation-delay: 0.1s;
-	top:6rem;
+	top:30px;
+
 }
 
 #am8pm11{
 	animation-delay: 0.05s;
-	top:8rem;
+	top:40px;
+
 }
 
 #pm12pm11{
 	animation-delay: 0.8s;
-	top:10rem;
+	top:50px;
+
 }
 
 #pm10am5{
 	animation-delay: 0.9s;
-	top:12rem;
+	top:60px;
+
 }
 
 #pm12am4{
 	animation-delay: 0.9s;
-	top:32rem;
+	top:200px;
+
 }
 
 @keyframes appear{
@@ -114,72 +142,37 @@ html{
 }
 
 
-@media screen and (max-width: 1000px) {
-	.shops{
-	font-family: recpt; 
-	font-size:2rem;
-	text-align:center;
-	line-height: 30rem;
-	animation: pulse 2s infinite;
-	position:absolute;
-	width: 180rem;
-	left:10rem;
-	word-spacing: 10rem;
-	padding-top: -6rem;
-}
 
-
-#am7pm7{
-	animation-delay: 0.7s;
-	top:4rem;
-
-}
-
-#am6pm5{
-	animation-delay: 0.2s;
-	top:8rem;
-}
-
-#am7pm8{
-	animation-delay: 0.1s;
-	top:12rem;
-}
-
-#am8pm11{
-	animation-delay: 0.05s;
-	top:16rem;
-}
-
-#pm12pm11{
-	animation-delay: 0.8s;
-	top:20rem;
-}
-
-#pm10am5{
-	animation-delay: 0.9s;
-	top:24rem;
-}
-
-#pm12am4{
-	animation-delay: 0.9s;
-	top:56rem;
-}
-}
 
 @media screen and (max-width: 500px) {
-  
+
+
+.container{
+	padding:0;
+	margin:0;
+	position: relative;
+	left: 0;
+	top: 20px;
+
+}  
+
+
 .shops{
 	font-family: recpt; 
 	font-size:4rem;
-	text-align:center;
-	line-height: 30rem;
+	text-align:justify;
+	line-height: 34rem;
 	animation: pulse 2s infinite;
 	position:absolute;
-	width: 180rem;
-	left:10rem;
-	word-spacing: 10rem;
+	width:400px;
+	left:10%;
+	word-spacing: 5px;
 }
 
+#hr24{
+	animation-delay: 0.5s;
+	top:0rem;
+}
 
 #am7pm7{
 	animation-delay: 0.7s;
@@ -214,6 +207,6 @@ html{
 
 #pm12am4{
 	animation-delay: 0.9s;
-	top:56rem;
+	top:30rem;
 }
 }

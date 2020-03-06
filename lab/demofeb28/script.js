@@ -61,7 +61,7 @@ var milliseconds = document.getElementById("milliseconds");
 var seconds = document.getElementById("seconds");
 var minutes = document.getElementById("minutes");
 var hours = document.getElementById("hours");
-var day = document.getElementById("weekday")
+var day = document.getElementById("weekday");
 
 var weekDays = ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"]
 var monthDay = document.getElementById("monthday")
