@@ -1,9 +1,5 @@
 
 
-/*var d = new Date();
-
-document.getElementById("timedate").innerHTML = d;*/
-
 var d = new Date();
 var month = new Array();
 month[0] = "January";
@@ -22,59 +18,98 @@ var n = month[d.getMonth()];
 var n1 = d.getDate();
 var n2 = d.getFullYear();
 
+var hr24 = document.getElementById("hr24");
+var am7pm7 = document.getElementById("am7pm7");
+var am6pm5 = document.getElementById("am6pm5");
+var am7pm8 = document.getElementById("am7pm8");
+var am8pm11 = document.getElementById("am8pm11");
+var am12pm11 = document.getElementById("am12pm11");
+var pm10am5 = document.getElementById("pm10am5");
+var pm12am4 = document.getElementById("pm12am4");
 
 document.getElementById("timedate").innerHTML = n+" "+n1+","+" "+n2;
 
 var counter = 0;
 
 var myRepeater = function(){
+//insert these in the html
+	
+	d = new Date();
+	var hours = d.getHours()
+	var minutes = d.getMinutes()
+	var seconds = d.getSeconds()
+	var milliseconds = d.getMilliseconds()
 
+	
+//counter doesnt really matter this is for 24 seconds
 	counter = counter + 1;	
 
+document.getElementById("timedate").innerHTML = 
+n+" "+n1+","+" "+n2+" "+"_:"+minutes+":" + seconds+ "<br></br> Manhattan New York,NY 40.7831° N, 73.9712° W";
+
+	if("counter" < 6 || "counter" > 18){
+		am7pm7.style.opacity = 0;
+
+	}else{
+		am7pm7.style.opacity = "";		
+	}
+
+	if(counter < 5 || counter > 16){
+		am6pm5.style.opacity = 0;
+
+	}else{
+		am6pm5.style.opacity = "";		
+	}
+
+	if(counter < 6 || counter > 19){
+		am7pm8.style.opacity = 0;
+
+	}else{
+		am7pm8.style.opacity = "";		
+	}
+
+	if(counter < 7 || counter > 22){
+		am8pm11.style.opacity = 0;
+
+	}else{
+		am8pm11.style.opacity = "";		
+	}
+
+	if(counter < 11 || counter > 22){
+		pm12pm11.style.opacity = 0;
+
+	}else{
+		pm12pm11.style.opacity = "";		
+	}
+
+	if(counter < 21 || counter > 4){
+		pm10am5.style.opacity = 0;
+
+	}else{
+		pm10am5.style.opacity = "";		
+	}
+
+	if(counter < 11 || counter > 3){
+		pm12am4.style.opacity = 0;
+
+	}else{
+		pm12am4.style.opacity = "";		
+	}
+
+
 	if (counter === 24){
-//when counter hits 60 reset counter to 0 and add 1 to minuteCounter
+
 		counter = 0;
 	}
 	console.log(counter)
-	}
-
-
-
-/*function Clock(){
-
-	var currentDate = new Date;
-
-	timeUnit(currentDate.getMinutes(), minutes)
-	timeUnit(currentDate.getSeconds(), seconds)
-	timeUnit(currentDate.getMilliseconds(), milliseconds)
-
-	weekDay(currentDate.getDay(), day)
-
-	monthDay.innerHTML = currentDate.getDate()
 }
 
-setInterval(Clock, 1000)
+setInterval(myRepeater, 1000);
 
-var myRepeater = function(){
 
-	//console.log(counter)
-	timeUnit(counter, seconds)
-	counter = counter + 1;	
 
-	if (counter === 60){
-//when counter hits 60 reset counter to 0 and add 1 to minuteCounter
-		counter = 0;
-		minuteCounter = minuteCounter + 1;
-		timeUnit(minuteCounter, minutes);
 
-		if(minuteCounter === 60){
 
-		minuteCounter = 0;
-		hourCounter = hourCounter + 1;
-		timeUnit(hourCounter, hours);
-		}
 
-	}
 
-	}
-*/
+
