@@ -26,7 +26,6 @@ var am8pm11 = document.getElementById("am8pm11");
 var am12pm11 = document.getElementById("am12pm11");
 var pm10am5 = document.getElementById("pm10am5");
 var pm12am4 = document.getElementById("pm12am4");
-var clurbs = document.getElementById("clurbs")
 
 document.getElementById("timedate").innerHTML = n+" "+n1+","+" "+n2;
 
