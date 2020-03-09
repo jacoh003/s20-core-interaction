@@ -26,6 +26,7 @@ var am8pm11 = document.getElementById("am8pm11");
 var am12pm11 = document.getElementById("am12pm11");
 var pm10am5 = document.getElementById("pm10am5");
 var pm12am4 = document.getElementById("pm12am4");
+var clurbs = document.getElementById("clurbs")
 
 document.getElementById("timedate").innerHTML = n+" "+n1+","+" "+n2;
 
@@ -47,53 +48,54 @@ var myRepeater = function(){
 document.getElementById("timedate").innerHTML = 
 n+" "+n1+","+" "+n2+" "+"_:"+minutes+":" + seconds+ "<br></br> Manhattan New York,NY 40.7831° N, 73.9712° W";
 
-	if("counter" < 6 || "counter" > 18){
-		am7pm7.style.opacity = 0;
+	if(counter <= 6|| counter >= 18){
+		console.log("less than 6:", am7pm7)
+		am7pm7.style.visibility = "hidden";
 
 	}else{
-		am7pm7.style.opacity = "";		
+		am7pm7.style.visibility = "visible";		
 	}
 
-	if(counter < 5 || counter > 16){
-		am6pm5.style.opacity = 0;
+	if(counter <= 5 || counter >= 16){
+		am6pm5.style.visibility = "hidden";
 
 	}else{
-		am6pm5.style.opacity = "";		
+		am6pm5.style.visibility = "visible";		
 	}
 
-	if(counter < 6 || counter > 19){
-		am7pm8.style.opacity = 0;
+	if(counter <= 6 || counter >= 19){
+		am7pm8.style.visibility = "hidden";
 
 	}else{
-		am7pm8.style.opacity = "";		
+		am7pm8.style.visibility = "visible";		
 	}
 
-	if(counter < 7 || counter > 22){
-		am8pm11.style.opacity = 0;
+	if(counter <= 7 || counter >= 22){
+		am8pm11.style.visibility = "hidden";
 
 	}else{
-		am8pm11.style.opacity = "";		
+		am8pm11.style.visibility = "visible";		
 	}
 
-	if(counter < 11 || counter > 22){
-		pm12pm11.style.opacity = 0;
+	if(counter <= 11 || counter >= 22){
+		pm12pm11.style.visibility = "hidden";
 
 	}else{
-		pm12pm11.style.opacity = "";		
+		pm12pm11.style.visibility = "visible";		
 	}
 
-	if(counter < 21 || counter > 4){
-		pm10am5.style.opacity = 0;
+	if(counter <= 21 || counter >= 4){
+		pm10am5.style.visibility = "hidden";
 
 	}else{
-		pm10am5.style.opacity = "";		
+		pm10am5.style.visibility = "visible";		
 	}
 
-	if(counter < 11 || counter > 3){
-		pm12am4.style.opacity = 0;
+	if(counter <= 11 || counter >= 3){
+		pm12am4.style.visibility = "hidden";
 
 	}else{
-		pm12am4.style.opacity = "";		
+		pm12am4.style.visibility = "visible";		
 	}
 
 
