@@ -27,6 +27,7 @@ var am12pm11 = document.getElementById("am12pm11");
 var pm10am5 = document.getElementById("pm10am5");
 var pm12am4 = document.getElementById("pm12am4");
 
+
 document.getElementById("timedate").innerHTML = n+" "+n1+","+" "+n2;
 
 var counter = 0;
@@ -96,6 +97,7 @@ n+" "+n1+","+" "+n2+" "+"_:"+minutes+":" + seconds+ "<br></br> Manhattan New Yor
 	}else{
 		pm12am4.style.visibility = "visible";		
 	}
+
 
 
 	if (counter === 24){

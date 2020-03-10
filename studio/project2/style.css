@@ -100,28 +100,8 @@ html{
 
 }
 
-@keyframes appear{
-	0%{
-		opacity: 0.5;	
-		animation-timing-function: ease;	
-	}
-	5%{
-		opacity: 1;	
-		animation-timing-function: ease;	
-	}
-	50%{
-		opacity: 1;	
-		animation-timing-function: ease;	
-	}
-	98%{
-		opacity: 1;	
-		animation-timing-function: ease;	
-	}
-	100%{
-		opacity: 0.5;	
-		animation-timing-function: ease;	
-	}
-}
+
+
 
 
 @keyframes pulse{
@@ -209,4 +189,5 @@ html{
 	animation-delay: 0.9s;
 	top:30rem;
 }
+
 }
